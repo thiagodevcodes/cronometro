@@ -1,0 +1,58 @@
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(255, 145, 0), rgb(255, 255, 255));
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 20px;
+  width: 350px;
+  padding: 15px;
+}
+
+.relogio {
+  font-size: 3em;
+}
+
+.pausado {
+  color: red;
+}
+
+.btn {
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 15pt;
+}
+
+.title {
+  font-size: 20pt;
+  
+}
+
+.btn:hover {
+  background-color: rgb(160, 160, 160);
+  cursor: pointer;
+}
