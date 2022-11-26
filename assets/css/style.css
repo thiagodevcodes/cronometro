@@ -42,14 +42,16 @@ body {
 }
 
 .btn {
-  padding: 7px;
   border-radius: 10px;
-  font-size: 15pt;
+  padding: 10px;
 }
 
 .title {
   font-size: 20pt;
-  
+}
+
+img {
+  width: 30px;
 }
 
 .btn:hover {
